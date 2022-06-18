@@ -5,7 +5,7 @@ A tool to search text from Android dependency library files.
 
 ### step 1:
 
-run the following shell script to extract all dependency library files
+run the following shell script to extract all dependency library files, it will take a while
 
 sh extract.sh(or ./extract.sh)
 
