@@ -31,7 +31,7 @@ do
 done
 
 time=$(date +%s) - $start
-if [[ $time -ge 60 ]]; then
+if [[ $time -gt 60 ]]; then
 	echo "It takes $(($time / 60)) minutes $(($time % 60)) seconds to extract all files."
 else
 	echo "It takes $time seconds to extract all files."
